@@ -1,4 +1,13 @@
 body
 {
-    color: blue;
+  font-family: Tahoma, sans-serif;
+  color: silver;
+  background-color: blue;
+}
+
+header
+{
+  font-family:Courier, serif;
+  text-align: center;
+  color: green;
 }
