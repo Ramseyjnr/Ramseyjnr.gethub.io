@@ -4,9 +4,8 @@ body
   color: silver;
   background-color: blue;
 }
-a{
-  color: lightgoldenrodyellow
-}
+a{color: lightgoldenrodyellow}
+a:hover{color: lightgreen}
 
 header
 {
@@ -14,3 +13,4 @@ header
   text-align: center;
   color: green;
 }
+
