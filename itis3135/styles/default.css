@@ -1,7 +1,7 @@
 body
 {
   font-family: Tahoma, sans-serif;
-  color: silver;
+  color: rgb(192, 192, 192);
   background-color: blue;
 }
 a{color: lightgoldenrodyellow}
@@ -11,6 +11,6 @@ header
 {
   font-family:Courier, serif;
   text-align: center;
-  color: green;
+  color: rgb(0, 60, 128);
 }
 
