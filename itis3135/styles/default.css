@@ -1,10 +1,10 @@
 body
 {
   font-family: Tahoma, sans-serif;
-  color: rgb(192, 192, 192);
+  color: rgba(192, 192, 192, 0.233);
   background-color: blue;
 }
-a{color: lightgoldenrodyellow}
+a{color: rgba(234, 210, 250, 0.356)}
 a:hover{color: lightgreen}
 
 header
