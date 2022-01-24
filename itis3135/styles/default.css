@@ -18,7 +18,7 @@ header
   text-align: center;
 }
 
-figure{
-  text-align: center;
+.figure{
+  align-items: center;
   height: 50
 } 
