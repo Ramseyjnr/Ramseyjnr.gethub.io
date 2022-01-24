@@ -4,7 +4,7 @@ body
   color: rgba(192, 192, 192, 0.233);
   background-color: blue;
 }
-a{color: rgba(234, 210, 250, 0.74)}
+a{color: rgba(234, 210, 250, 0.733)}
 a:hover{color: rgb(238, 144, 207)}
 
 header
@@ -17,5 +17,7 @@ header
   text-decoration: none;
   text-align: center;
 }
-
-
+.bbbb{
+  text-align: center;
+  background-color: red;
+}
