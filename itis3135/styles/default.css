@@ -4,13 +4,13 @@ body
   color: rgba(192, 192, 192, 0.233);
   background-color: blue;
 }
-a{color: rgba(234, 210, 250, 0.356)}
-a:hover{color: lightgreen}
+a{color: rgba(234, 210, 250, 0.74)}
+a:hover{color: rgb(238, 144, 207)}
 
 header
 {
   font-family:Courier, serif;
   text-align: center;
-  color: rgb(0, 60, 128);
+  color: rgb(58, 128, 0);
 }
 
