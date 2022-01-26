@@ -1,17 +1,18 @@
 body
 {
   font-family: Tahoma, sans-serif;
-  color: hsl(0, 0%, 75%);
-  background-color:black;
+  color: brown;
+  background-color:peachpuff;
+  size: 30;
 }
-a{color: greenyellow}
+a{color: black}
 a:hover{color: palevioletred}
 
 header
 {
   font-family:Courier, serif;
   text-align: center;
-  color: red;
+  color: black;
 }
 .homelink{
   text-decoration: none;
