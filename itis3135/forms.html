@@ -7,10 +7,10 @@
     </head>
     <body>
         <header>
-            <h2 style="text-align: center;" >Ramsey Azure | ITIS 3135 | Introduction </h2>
+            <h2 style="text-align: center;" >Ramsey Azure | ITIS 3135 | Forms</h2>
         </header>
         <main>
-            <h2 style="text-align: center;">Introduction</h2>
+            <h2 style="text-align: center;">Forms</h2>
             <nav style="text-align: center;">
                 <a href ="./">Home</a>
                 ||
@@ -20,29 +20,37 @@
                 ||
                 <a href ="/itis3135/">Personal</a>
             </nav>
-            <figure>
-                <a href= "images/IMG-9549.jpg">
-                 <img src= "images/IMG-9549.jpg" alt=" Ramsey Standing" width="500" height="600" class="center">
-                </a>
-            </figure>
-            <dl style="font-family:'Courier New'">
-             <ul>
-                <li> PERSONAL: I was born and raised in West Africa (Ghana) moved to the State in 2015 and North Carolina 
-                    was the first state so technically I am from NC and I have been here for 6 years.</li>
-                <li> PROFESSIONAL : In 2017 I joined the Army and I am currently serving.</li>
-                <li> ACADEMIC: I graduated High school in 2013 and and started CPCC in 2017 then transferred To UNCC to complete my degree.</li>
-                <li>CLASSES I AM TAKING: 
-                    <ul>
-                        <li>202210-SPRING 2022-ITIS-3135-091-WEB APP DESIGN AND DEVELOPMENT4</li>
-                        <li>202210-SPRING 2022-ITIS-3200-051-INTRO TO INFO SECURITY & PRIV1</li>
-                        <li>202210-SPRING 2022-ITSC-2175-101-LOGIC AND ALGORITHMS5</li>
-                        <li>202210-SPRING 2022-MSCI-1102L-001:MSCI-2102L-001:MSCI-3102L-001:MSCI-4102L-001_COMBINED1</li>
-                        <li>202210-SPRING 2022-MSCI-3102-002-APPLIED TEAM LEADERSHIP</li>
-                    </ul>
-                </li>
-                <li>STORY/ITEM: Playing Soccer was my dream but Joined the Army (Tanker 19k) lol.</li>
-             </ul>
-            </dl> 
+            
+            <form action="/action_page.php" method="get" target="_blank">
+                <label for="name">Enter Firts and Last Name:</label><br><br>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="phone">Enter a phone number:</label><br><br>
+                <input type="text" id="lname" name="lname"><br><br>
+                <label for="phone">Enter email:</label><br><br>
+                <input type="text" id="lname" name="lname"><br><br>
+                
+
+                 <p>Are You Interested in Knowing about Military Vehicles?</p>
+                   <input type="radio" name="yes_no" checked>Yes</input>
+                   <input type="radio" name="yes_no">No</input>
+                   
+                   <dl id="checkboxes">
+                    <dt>Which of these Military Vehicles have you seen before</dt>
+                    <dd><input type="checkbox" id="chk1" /><label for="chk1">Abrams</label></dd>
+                    <dd><input type="checkbox" id="chk2" /><label for="chk2">Bradley</label></dd>
+                    <dd><input type="checkbox" id="chk3" /><label for="chk3">Cougar</label></dd>
+                    <dd><input type="checkbox" id="chk4" /><label for="chk4">Stryker</label></dd>
+                    <dd><input type="checkbox" id="chk4" /><label for="chk4">Nyala</label></dd>
+                  </dl>
+
+                  <label for="cars">Which Military MOS(Military Occupational Specialty ) is the best:</label>
+                  <select name="MOS" id="MOS">
+                    <option value="19Kilo Tanker">19Kilo Tanker</option>
+                    <option value="11b Infantry">11b Infantry</option>
+                    <option value="12b Combat Engineer">12b Combat Engineer</option>
+                    <option value="14E Air Defence Artillery">14E Air Defence Artillery</option>
+                  </select>
+              </form>
             
             <p>Click to go to my <a href= "contract.html">contract</a>.</p>
         </main>
