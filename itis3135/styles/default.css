@@ -43,3 +43,6 @@ ol.center li{
   text-align: left;
   margin-left: 32%;
 }
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
