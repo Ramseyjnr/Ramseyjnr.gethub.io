@@ -46,3 +46,6 @@ ol.center li{
 tr:nth-child(even) {
   background-color: #D6EEEE;
 }
+
+p.solid {border-style: solid;}
+
