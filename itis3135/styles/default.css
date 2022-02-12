@@ -49,3 +49,23 @@ tr:nth-child(even) {
 
 p.solid {border-style: solid;}
 
+.companylogo {
+
+  text-align: center;
+
+  text-decoration: none;
+  
+ 
+
+}
+
+.logolink {
+
+  width: 100px;height: 100;margin:0px auto;
+
+  width: 180px;height: 180px;float:right;
+
+  width:100px;height:100px;border-radius:50%;   
+
+}
+
