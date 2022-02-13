@@ -22,17 +22,17 @@ function printTime()
 
 function formOutput()
 {
-    let name = document.getElementById('firstname').value;
+    let name = document.getElementById('name').value;
     let feeling = document.getElementById('feeling').value;
-    document.getElementById("output").innerHTML = `Welcome, ${name}!  We're glad you are doing ${feeling}!`;
+    document.getElementById("output").innerHTML = `WhitRams designs Welcome You , ${name}!  We're glad you are doing ${feeling}!`;
 }
 
-function calcTax()
+function addSum()
 {
-    let salary = parseInt(document.getElementById('salary').value);
-    let tax = parseInt(document.getElementById('tax').value);
-    const finalValue = salary - (salary * tax * 0.01);
-    document.getElementById('output2').innerHTML = "Monthly salary after tax is: $" + finalValue + ".";
+    var y = document.getElementById("txt1").value;
+    var z = document.getElementById("txt2").value;
+    var sum = +y + +z;
+    document.getElementById('output2').innerHTML = "total number is : " + sum + ".";
 }
 
 function calcAvg()
