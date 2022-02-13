@@ -5,11 +5,27 @@ function scriptTest()
 
 function printTime() 
 {
-    let today = new Date();
-    let month = today.getMonth();
+    var today = new Date();
+    var year = now.getFullYear();
+    var month = today.getMonth();
+    var day = now.getDay();
+    var date = now.getDate();
+    var hour = now.getHours();
+    var min = now.getMinutes();
+    var am_pm;
 
-    let monthWord = new Array('January', 'February', 'March', 'April', 'May', 'June', 
+    var month = new Array('January', 'February', 'March', 'April', 'May', 'June', 
     'July', 'August', 'September', 'October', 'November', 'December');
+
+    var mtwtfss = new Array('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 
+    'Sunday');
+
+    if(hour >= 12){
+        hour %=12;
+        am_pm;
+    }else {
+        am_pm="am";
+    }
 
     document.getElementById('printTime').innerHTML = "Current time is: " + today.getHours() + ":" +
      today.getMinutes() + ".  Today is: " + monthWord[month] + " " + today.getDate() + ", " + today.getFullYear() + ".";
