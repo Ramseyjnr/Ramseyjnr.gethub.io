@@ -25,19 +25,37 @@
             <a href ="firtscript.html"> FirtsJS &#9203;</a>
         </p>
         </nav>
-        <h1 style="text-align: center;" >FirstJS</h1>
+     
         
     </header >
     <main>
-        <input type="text" id="currentDateTime">
-         <br><br>
-           <script>
-                var today = new Date();
-                var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
-                var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-                 var dateTime = date+' '+time;
-                  document.getElementById("currentDateTime").value = dateTime;
-            </script>
+        <h2 style="text-align: center;">Firtscript</h2>
+         </script>
+        <h3 style="text-align: center;">Today is:
+         <input type="text" id="currentDate">
+          <br><br>
+        </h3>
+       <script>
+        var today = new Date();
+        var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+        document.getElementById("currentDate").value = date;
+        var month = new Array('January', 'February', 'March', 'April', 'May', 'June', 
+            'July', 'August', 'September', 'October', 'November', 'December');
+        
+
+      </script>
+
+      <h3 style="text-align: center;"> The Time is:
+         <input type="text" id="currentTime">
+          <br><br>
+      </h3>
+       <script>
+         var today = new Date();
+         var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+         document.getElementById("currentTime").value = time;
+         var mtwtfss = new Array('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 
+            'Sunday');
+    </script>
   
         <div class="div-1">
            
