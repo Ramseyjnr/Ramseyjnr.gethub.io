@@ -3,14 +3,6 @@ function scriptTest()
     alert("My script is running.");
 }
 
-
-
-
-
-
-
-
-
 function formOutput()
 {
     var name = document.getElementById('name').value;
@@ -36,10 +28,6 @@ function calcAvg()
     }
     document.getElementById('output3').innerHTML = "Average work time is: " + ((hours1 + hours2 + hours3) / numWorkers) + " hours.";
 }
-
-
-
-
 
 
 function addSum()
