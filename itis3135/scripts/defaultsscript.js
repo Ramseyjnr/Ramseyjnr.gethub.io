@@ -38,5 +38,18 @@ function addSum()
     document.getElementById('output2').innerHTML = "total number is : " + sum + ".";
 }
 
+const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+function getNumber() 
+{
+    var polygonNumber = parseFloat(prompt("Jolly Reindeer Designs welcomes you! Type a number 0-10 and we will tell you the name of a polygon with that many sides!"));
+    return polygonNumber;
+}
+
+function getError() 
+{
+    var polygonNumber = parseFloat(prompt("It looks like you typed in an invalid entry. Please type in a number 0 through 10."));
+    return polygonNumber;
+}
 
 
