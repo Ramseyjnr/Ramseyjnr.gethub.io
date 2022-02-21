@@ -40,16 +40,34 @@ function addSum()
 
 const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
-function getNumber() 
+function getShape()
 {
-    var polygonNumber = parseFloat(prompt("Jolly Reindeer Designs welcomes you! Type a number 0-10 and we will tell you the name of a polygon with that many sides!"));
-    return polygonNumber;
+    var numSides = prompt("Whites Rams wants to how what type of polygon you want to know", "0");
+    while(!validateEntry(numSides)) 
+    {
+        numSides = prompt("Please enter a number from 0-10.", "0")
+    }
+    /* Polygon array holding names for sides 0-10 */
+    numSides = Math.abs(numSides);
+    var shapeArray = new Array("Try Again", " Henagon", " Digon", " Trigon", " Tetragon", " Pentagon", " Hexagon", " Heptagon", " Octagon", "Enneagon", "Decagon");
+    document.getElementById('output').innerHTML = "Ruby Jackal says your shape is " + shapeArray[numSides]; 
 }
 
-function getError() 
+function validateEntry(entry)
 {
-    var polygonNumber = parseFloat(prompt("It looks like you typed in an invalid entry. Please type in a number 0 through 10."));
-    return polygonNumber;
-}
+    /* Function that validates the sides entry is between 0-10 unsigned */
+    if(isNaN(entry)) 
+    {
+        return false;
 
+    }
+    entry = Math.round(entry);
+
+    if (Math.abs(entry) > 10)
+    {
+        return false;
+
+    }
+    return true;
+}
 
