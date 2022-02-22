@@ -50,7 +50,7 @@ function getShape()
     /* Polygon array holding names for sides 0-10 */
     numSides = Math.abs(numSides);
     var shapeArray = new Array("Try Again", " Henagon", " Digon", " Trigon", " Tetragon", " Pentagon", " Hexagon", " Heptagon", " Octagon", "Enneagon", "Decagon");
-    document.getElementById('output').innerHTML = "Ruby Jackal says your shape is " + shapeArray[numSides]; 
+    document.getElementById('output').innerHTML = "Your Shape is:" + shapeArray[numSides]; 
 }
 
 function validateEntry(entry)
