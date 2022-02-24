@@ -30,6 +30,11 @@ table,th,td{
   border: 1px solid black;
   border-collapse: collapse;
 }
+.table-top-row
+{
+    background-color: #280003;
+    color: #FFC4AB;
+}
 
 table.center{
   margin-left:auto;
