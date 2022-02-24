@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset = "utf-8">
+        <link rel="stylesheet" href= "./styles/default.css" type="text/css">
+        <title>Ramsey Azure | ITIS 3135 | white-rams | firstscript</title>
+    <script src="scripts/defaultsscript.js "></script>
+</head>
+
+<body >
+    <header style="text-align: center;">
+        <h1 style="text-align: center;" >Ramsey Azure | ITIS 3135 | White Ram </h1>
+       
+        <p style="font-family:'Courier New'">
+            <a href ="./">Home</a>
+            &#10055;
+            <a href ="introduction.html">Introduction</a>
+            &#10055;
+            <a href ="contract.html">Contract</a>
+            &#10055;
+            <a href ="white-rams.html">Brand Page</a>
+            &#10055;
+            <a href ="tables.html">Tables</a>
+            &#10055;
+            <a href ="forms.html">Forms</a>
+            &#10055;
+            <a href ="/itis3135/stuff/23Ddnnnntbbvhvhabx.html"> Crappy Page</a>
+            &#10055;
+            <a href ="website_evaluation.html"> website_evaluation</a>
+            &#10055;
+            <a href ="razurezdesigns.html"> razurezdesigns</a>
+            &#10055;
+            <a href ="firtscript.html"> FirtsJS</a>
+            &#10055;
+        </p>
+        </nav>
+     
+        
+    </header >
+    <main>
+        <h2 style="text-align: center;">Firtscript</h2>
+         </script>
+        <h3 style="text-align: center;">Today is:
+         <input type="text" id="currentDate">
+          <br><br>
+        </h3>
+       <script>
+        var today = new Date();
+        var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+        document.getElementById("currentDate").value = date;
+        var month = new Array('January', 'February', 'March', 'April', 'May', 'June', 
+            'July', 'August', 'September', 'October', 'November', 'December');
+        </script>
+
+      <h3 style="text-align: center;"> The Time is:
+         <input type="text" id="currentTime">
+          <br><br>
+      </h3>
+       <script>
+         var today = new Date();
+         var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+         document.getElementById("currentTime").value = time;
+         var mtwtfss = new Array('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 
+            'Sunday');
+    </script>
+  
+        <div class="div-1">
+           
+           
+            <button onclick="scriptTest();">Sample Alert Script</button>
+            <p style="text-align: center;">
+                What is your  name: <input type="text" placeholder="Name" id="name" name="name" />
+                <br>
+                How are you feeling today: <input type="text" placeholder="How are you Feeling?" id="feeling"
+                    name="feeling" />
+                <br>
+                <input type="button" onclick="formOutput();" name="submit" id="submit" value="Submit" />
+            </p>
+            <h3 id="output"></h3>
+            <br>
+            <h3 style="text-align: center;">Adding All Your Orders Together</h3>
+            <p style="text-align: center;">
+                How many potrait pictures you need: <input type="text" placeholder="txt1" id="txt1" name="txt1" />
+                <br>
+                How many car stickers do you want to order: <input type="text" placeholder="txt2" id="txt2" name="txt2" />
+                <br>
+                <input type="button" onclick="addSum();" name="submit" id="submit" value="Add" />
+            </p>
+            <h3 id="output2"></h3>
+            <br>
+            <h3 style="text-align: center;">Average hours we spend on All our  work</h3>
+            <p style="text-align: center;">
+                In White Ram desings we can let you know the average hours of working on our product.
+                <br>
+                What hours to you want us to spend on your stickers: <input type="text" placeholder="Hours" id="hours1" name="hours1" />
+                <br>
+                What hours to you want us to spend on your picture design: <input type="text" placeholder="Hours" id="hours2" name="hours2" />
+                <br>
+                What hours to you want us to spend on your Car Wrap: <input type="text" placeholder="Hours" id="hours3" name="hours3" />
+                <br>
+                
+                <input type="button" onclick="calcAvg();" name="submit" id="submit" value="Calculate Average" />
+            </p>
+            <h3 id="output3"></h3>
+        </div>
+    </main>
+    <footer>
+
+
+    </footer>
+</body>
+
+<html>
