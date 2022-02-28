@@ -91,11 +91,6 @@ table
   border-spacing: 0px;
 }
 
-table tr:nth-child(odd) 
-{
-  background-color: #7B2CBF;
-  color: #DAB6FC;
-}
 
 .buttoncolor 
 {
@@ -110,7 +105,7 @@ form
   margin:auto;
   width: 30%;
   padding:10px;
-  background-color: #B5179E;
+  background-color:brown;
   color: #DAB6FC;
 }
 
