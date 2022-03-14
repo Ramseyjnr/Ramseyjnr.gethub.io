@@ -39,20 +39,13 @@ html {
     
   }
   
-  td,
-  img
-  {
-    width: 50%;
-    height: 50%;
-  }
-  
   th {
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: left;
     background-color:#262626;
    
-    color:#E2FCEF;
+    color:white;
   }
   
   table.center {
@@ -68,17 +61,13 @@ html {
     color:black;
   }
   
-  #submit
-  {
-    background-color: #2B4162;
-    color: #FFD9DA;
-  }
-  
   
   /* footer bottom of page*/
   footer {
+    bottom: 0;
+    right: 0;
     padding-right: 70px;
-   
+   text-align: center;
   }
   
   abbr {
@@ -101,5 +90,12 @@ html {
     text-decoration: none;
     cursor: pointer;
   }
+  
+  .submit_button
+  {
+    background-color: #000;
+    color: aliceblue;
+  }
+  
   
   
