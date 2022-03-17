@@ -1,0 +1,101 @@
+.navbar
+{
+    background-color: ghostwhite;
+    height: 40px;
+
+
+    width:100%;
+}
+
+/*- to make navbar looks great -*/
+.navbar a
+{
+    color: darkslategrey;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 25px;
+
+
+}
+
+.container{
+    background-image: url("5f07905ee5a9c.image.jpg");
+    height: 500px;
+    border-radius: 15px;
+
+}
+.container{
+    text-align: center;
+    font-size: 700%;
+    font-style: italic;
+    color: darkslategray;
+}
+
+th{
+    font-size: xx-large;
+
+}
+
+footer{
+    text-align: center;
+}
+input{
+    background-color: white;
+    width: 100px;
+    font-size: x-large;
+    font-style: italic;
+}
+main{
+
+width: 800px;
+    margin: auto;
+}
+iframe{
+    width: 800px;
+    color: white;
+}
+address{
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    color: white;
+}
+p{
+    font-style: normal;
+    line-height: 30px;
+    font-size: 20px;
+    color: white;
+}
+/*- set body background color-*/
+body{
+    background-color: darkslategrey;
+}
+/*- set h1 text color-*/
+h1{
+    color: white;
+}
+a:hover{
+    background-color: ghostwhite;
+
+
+}
+/*- to make slideshow looks better -*/
+.slideshow-img{
+    height:500px;
+    width:800px;
+    border-radius: 15px;
+}
+.img-fluid{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 1px;
+}
+#contact
+{
+    text-align: center;
+}
+.obed{
+    color: black;
+}
