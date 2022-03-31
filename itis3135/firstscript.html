@@ -24,10 +24,10 @@
 
         <div class="div-1">
            
-            <p style="text-align: center;">
+            <p>
                 <button onclick="scriptTest();">Sample Alert Script</button>
             </p>
-            <p style="text-align: center;">
+            <p>
                 What's your first name: <input type="text" placeholder="First Name" id="firstname" name="firstname" />
                 <br>
                 How are you feeling: <input type="text" placeholder="How are you Feeling?" id="feeling" name="feeling" />
@@ -76,6 +76,13 @@
             </p>
             <h3 id="output4"></h3>
         </div>
+
+        <button onclick="birthMonth()">Want me to guess your birth month?</button>
+		<p id="guess"></p>
+		<button id="yes" onclick="right()" style="display: none;">Yes!</button>
+		<br>
+		<button id="no" onclick="wrong()" style="display: none;">Nope!</button>
+		<br>
     </main>
     <footer>
         <div data-include="components/footer.html"></div>

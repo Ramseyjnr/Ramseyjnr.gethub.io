@@ -33,20 +33,29 @@ function showDateTime()
 
 function formOutput()
 {
-    var name = document.getElementById('name').value;
-    var feeling = document.getElementById('feeling').value;
-    document.getElementById("output").innerHTML = `WhitRams designs Welcome You , ${name}!  We're glad you are doing ${feeling}!`;
+    let name = document.getElementById('firstname').value;
+    let feeling = document.getElementById('feeling').value;
+    document.getElementById("output").innerHTML = "The White-Ram welcomes you, " + name + "!  We're glad you are doing " + feeling + "!";
+}
+
+function calcTax()
+{
+    let salary = parseInt(document.getElementById('salary').value);
+    let tax = parseInt(document.getElementById('tax').value);
+    const finalValue = salary - (salary * tax * 0.01);
+    document.getElementById('output2').innerHTML = "Monthly salary after tax is: $" + finalValue + ".";
 }
 
 function calcAvg()
 {
-    var hours1 = parseInt(document.getElementById('hours1').value) || 0;
-    var hours2 = parseInt(document.getElementById('hours2').value) || 0;
-    var hours3 = parseInt(document.getElementById('hours3').value) || 0;
-   
+    let hours1 = parseInt(document.getElementById('hours1').value) || 0;
+    let hours2 = parseInt(document.getElementById('hours2').value) || 0;
+    let hours3 = parseInt(document.getElementById('hours3').value) || 0;
+    let hours4 = parseInt(document.getElementById('hours4').value) || 0;
+    let hours5 = parseInt(document.getElementById('hours5').value) || 0;
 
-    var hoursArray = new Array(hours1, hours2, hours3);
-    var numWorkers = 0;
+    let hoursArray = new Array(hours1, hours2, hours3, hours4, hours5);
+    let numWorkers = 0;
     for(var i = 0; i < 5; i++) 
     {
         if(hoursArray[i] != 0) 
@@ -54,16 +63,37 @@ function calcAvg()
             numWorkers++;
         }
     }
-    document.getElementById('output3').innerHTML = "Average work time is: " + ((hours1 + hours2 + hours3) / numWorkers) + " hours.";
+    document.getElementById('output3').innerHTML = "Average work time is: " + ((hours1 + hours2 + hours3 + hours4 + hours5) / numWorkers) + " hours.";
 }
 
-
-function addSum()
+function modularCalc()
 {
-    var y = document.getElementById("txt1").value;
-    var z = document.getElementById("txt2").value;
-    var sum = +y + +z;
-    document.getElementById('output2').innerHTML = "total number is : " + sum + ".";
+    let jackals = document.getElementById('jackals').value;
+    let cookies = document.getElementById('cookies').value;
+    document.getElementById('output4').innerHTML = "Remaining cookies: " + (cookies % jackals) + ".";
+}
+
+/**Function to guess the month that the user was born*/
+function birthMonth()
+{
+    var months = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ];
+    var guess = Math.floor(Math.random()*12);
+    document.getElementById("guess").innerHTML = "Is it " + months[guess] + "?";
+    document.getElementById("yes").style.display = 'block';
+    document.getElementById("no").style.display = "block";
+}
+
+/**If the guess was wrong then this function guesses again*/
+function wrong()
+{
+    var months = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ];
+    var guess = Math.floor(Math.random()*12);
+    document.getElementById("guess").innerHTML = "Then is it " + months[guess] + "?";
+}
+/**If the guess was right then it will print a message on the page*/
+function right()
+{
+    document.getElementById("guess").innerHTML = "Yes, lets go!";
 }
 
 const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
