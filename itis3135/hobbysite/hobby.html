@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <title>
+        Connor Kells || ITIS 3135 || Midterm
+    </title>
+    <script src="hobby.js"></script>
+    <style>
+        body {
+            font-family: Arial;
+            margin-left: 100px;
+            margin-right: 100px;
+            background-color:green;
+        }
+
+        h1,
+        h2,
+        h3,
+        footer {
+            text-align: center;
+        }
+
+        .tab {
+            overflow: hidden;
+            border: 1px solid rgb(197, 195, 195);
+            background-color: ivory;
+            text-align: center;
+        }
+
+        .tabButton {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            font-size: 15px;
+            text-align: center;
+        }
+
+        .tabButton:hover {
+            background-color: gray;
+
+        }
+
+        .tabButton.active {
+            background-color: rgb(197, 195, 195);
+        }
+
+        .tabcontent {
+            display: none;
+            padding: 5px 10px;
+            border: 1px solid yellowgreen;
+            border-top: none;
+        }
+
+        figure {
+            text-align: center;
+        }
+
+        button {
+            text-align: center;
+            align-items: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(32, 28, 28);
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Ramsey Azure  &#10055; ITIS 3135  &#10055; Midterm
+        </h1>
+    </header>
+
+    <main>
+        <h2>
+           About Me and Information On US Army Vehicles
+        </h2>
+
+        <div class="tab">
+            <button class="tabButton" onclick="openTab(event, '1')">About Me</button>
+            <button class="tabButton" onclick="openTab(event, '2')">M1A1 Abram Tanks</button>
+            <button class="tabButton" onclick="openTab(event, '3')">Stryker</button>
+            <button class="tabButton" onclick="openTab(event, '4')">Bradleys</button>
+            <button class="tabButton" onclick="openTab(event, '5')">Humvee</button>
+          </div>
+
+        <section id="1" class="tabcontent">
+            <h3>About Me</h3>
+            <p>
+               My name is Ramsey Azure,28 years of age, I am from West Africa Ghana, moved to the Unite state 2015 worked for 1 year then 
+               started a community college at Central Piedmont community College, I love playing soccer and listening to music, currentle
+               and A student at UNCC and also in the Army National Guard my plan is to commission as an officer in the Military.
+               I joined as a 19k which is a tanker and i was the driver for two years then moved to the loader for also two years
+               and got promoted to a coperal and finally became a gunner and got promoted to a sgt,  I also take pictures for my unit
+               on drills, I have also been on my first combat tour to the Eiddle East which includes kuwait,jordan, and Syria
+            </p>
+            <figure>
+                <a href="images/IMG_9613.jpeg"><img src="images/IMG_9613.jpeg" width="600" height="500"
+                        alt="Taking Pictures"></a>
+                
+                <figcaption><em>Taking AT Drills</em></figcaption>
+            </figure>
+        </section>
+
+        <section id="2" class="tabcontent">
+            <h3>M1A1 Abrams</h3>
+            <p>
+                The Abrams program is a mature, Acquisition Category IC program. Design decision authority is delegated to Program Executive Office 
+                Ground Combat Systems, further empowering leaders at the lowest level to execute. This creates great Acquisition agility and enables quick reactions to the Army’s 
+                requirements while focusing on the real-time needs of the warfighting formations.
+            </p>
+            <figure>
+                <a href="images/600px-Mounted_Soldier_System_(MSS).jpeg">
+                    <img src="images/600px-Mounted_Soldier_System_(MSS).jpeg" alt="Syria 2019"></a>
+                <figcaption><em>Coming Back from a Mission</em></figcaption>
+            </figure>
+            <p>
+                The Abrams Main Battle Tank closes with and destroys the enemy using mobility, firepower, and shock effect. 
+                The Abrams is a full-tracked, low-profile, land combat assault weapon enabling expeditionary Warfighters to dominate
+                 their adversaries through lethal firepower, unparalleled survivability, and audacious maneuver. The Abrams tank sends
+                  a message to those who would oppose the United States as to the resolve, capability, and might of the U.S. Army. A 1,500-horsepower turbine 
+                engine, 120 mm main gun and special armor make the Abrams tank particularly lethal against heavy armor forces.
+            </p>
+        </section>
+
+        <section id="3" class="tabcontent">
+            <h3>Stryker</h3>
+            <p>
+                The Stryker is a family of eight-wheeled armored fighting vehicles derived from the Canadian LAV III. 
+                Stryker vehicles are produced by General Dynamics Land Systems-Canada (GDLS-C) for the United States Army in a plant in London, Ontario. 
+                It has four-wheel drive (8×4) and can be switched to all-wheel drive (8×8).[8]
+            </p>
+            <figure>
+                <a href="images/Stryker_ICV_front_q.jpeg">
+                    <img src="images/Stryker_ICV_front_q.jpeg" alt="taking Picture"></a>
+                <figcaption><em>Taking Pictures</em></figcaption>
+            </figure>
+            <p>
+                The Stryker was conceived as a family of vehicles forming the backbone of a new medium-weight brigade combat 
+                team (BCT) that was to strike a balance between heavy armor and infantry. The service launched Interim Armored 
+                Vehicle competition, and in 2000, the service selected the LAV III proposed by GDLS and General Motors Defense. The service named this family of vehicles the "Stryker".
+            </p>
+        </section>
+
+        <section id="4" class="tabcontent">
+            <h3>Bradleys</h3>
+            <p>
+                The M2 Bradley, or Bradley IFV, is an American infantry fighting vehicle that is a member of the Bradley Fighting Vehicle family. 
+                It is manufactured by BAE Systems Land & Armaments, which was formerly United Defense.
+            </p>
+            <figure>
+                <a href="images/600px-Decisive_Action_Rotation_13-04_130218-A-ML570-001.jpeg">
+                    <img src="images/600px-Decisive_Action_Rotation_13-04_130218-A-ML570-001.jpeg" alt="Bradley"></a>
+                <figcaption><em>Bradleys</em></figcaption>
+            </figure>
+            <p>
+                The Bradley is designed for reconnaissance and to transport a squad of infantry, providing them protection from 
+                small arms fire, while also providing firepower to both suppress and eliminate most threats to friendly infantry. 
+                It is designed to be highly maneuverable and to be fast enough to keep up with heavy armor during an advance. 
+                The M2 holds a crew of three: a commander, a gunner and a driver, as well as six fully equipped soldiers.
+
+            </p>
+
+        </section>
+
+        <section id="5" class="tabcontent">
+            <h3>Humvee</h3>
+            <p>
+                The High Mobility Multipurpose Wheeled Vehicle (HMMWV; colloquial: Humvee) is a family of light,
+                 four-wheel drive, military trucks and utility vehicles produced by AM General.[10] It has largely 
+                 supplanted the roles previously performed by the original jeep, and others such as the Vietnam War-era M151 jeep, the M561 "Gama Goat", 
+                their M718A1 and M792 ambulance versions, the Commercial Utility Cargo Vehicle, and other light trucks.
+            </p>
+            <figure>
+                <a href="images/2015_MCAS_Beaufort_Air_Show_041215-M-CG676-161.jpeg">
+                    <img src="images/2015_MCAS_Beaufort_Air_Show_041215-M-CG676-161.jpeg" alt="Humvee"></a>
+                <figcaption><em>My Spotify Top Played Artist for 2021 (Amon Amarth)</em></figcaption>
+            </figure>
+           
+
+        </section>
+
+       
+
+    </main>
+
+    <footer>
+        <br />
+        <div style="text-align: center;"> Created By <a href ="razurezdesigns.html">Azurez Designs</a>  &copy;2022.</div> 
+        <br />
+        <p>
+            <p style="text-align: center;">
+                <a href = "https://jigsaw.w3.org/css-validator/check/referer" style = "text-decoration: none;" id="validation_link_css">
+                    <img src = "images/button_validation_css.png" width = "88" height = "31" alt = "Link to css validator">
+                </a>
+                <a href = "https://validator.w3.org/check?uri=referer" style = "text-decoration: none;" id="validation_link_html">
+                    <img src = "images/button_validation_html5.png" width = "88" height = "31" alt = "Link to html validator">
+                </a>
+            </p>
+        
+            <script>
+                document.getElementById('validation_link_css').setAttribute('href', 'https://jigsaw.w3.org/css-validator/check?uri=' + location.href);
+                document.getElementById('validation_link_html').setAttribute('href', 'https://validator.w3.org/check?uri=' + location.href);
+            </script>
+    </footer>
+
+</body>
+
+</html>
