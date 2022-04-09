@@ -138,45 +138,49 @@ form
 
 .calculator
 {
-  border-radius: 12px;
-  box-shadow: 0 0 40px 0px rgba(0,0,0,0.15);
-  margin-left:auto;
-  margin-right:auto;
-  margin-top: 2em;
-  max-width: 15em;
-  overflow: hidden;
-
+    border-radius: 0px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+    max-width: 240px;
 }
 
-.calculator_display 
+.calculatordisplay
 {
-  background-color: royalblue;
-  color: black;
-  font-size: 1.714285714em;
-  padding: 0.5em 0.75em;
-  text-align: right;
+    background-color: #511C29;
+    color: #FBC4AB;
+    font-size: 1.714285714em;
+    padding: 0.5em 0.75em;
+    text-align: right;
 }
 
-.calculator_keys 
+.calculatorkeys
 {
-
-  background-color: blanchedalmond;
-  display: grid;
-  gap: 1px;
-  grid-template-columns: repeat(4, 1fr);
+    background-color: #FBC4AB;
+    display: grid;
+    gap: 2px;
+    grid-template-columns: repeat(4, 1fr);
 }
 
-
-.calculator_keys > * 
+.calculatorsubmitkey
 {
-  background-color: blanchedalmond;
-  padding: 0.5em 1.25em;
-  position: relative;
-  text-align: center;
-
+    background-color: #FBC4AB;
+    display: grid;
+    gap: 2px;
+    grid-column: -2;
+    grid-row: 2 / span 4;
 }
 
-.calculator_keys > *:active::before, 
+.key-equal
+{
+    display: grid;
+    gap: 2px;
+    grid-column: -2;
+    grid-row: 2 / span 4;
+}
+
+
 .calculator_keys > .is-depressed::before 
 {
 
