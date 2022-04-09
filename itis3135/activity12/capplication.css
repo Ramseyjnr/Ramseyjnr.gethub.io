@@ -1,0 +1,24 @@
+body {
+
+  font-family: Tahoma, sans-serif;
+  color: brown;
+  background-color:peachpuff;
+  
+
+}
+h1 {
+	background: #dfe3e6 url('images/amazing-animal-beautiful-beautifull.webp') no-repeat 7px center;
+	margin: 0;
+	padding: 3px 0 3px 25px;
+	border: peru;
+	color: peachpuff;
+}
+.bx-wrapper {
+	margin-bottom: 20px;
+}
+#id_pager {
+	text-align: center;
+	font-size: 90%;
+	color: green;
+}
+
