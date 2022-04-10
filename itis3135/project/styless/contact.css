@@ -1,0 +1,62 @@
+
+.navbar
+{
+    background-color: ghostwhite;
+    height: 40px;
+
+    width:100%;
+}
+
+form{
+
+    margin-top: 15px;
+
+    border:3px solid black;
+
+    padding: 40px;
+
+    width:35%;
+
+    background-color: whitesmoke;
+
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 15px;
+
+
+}
+h2 {
+    text-align: center;
+}
+body{
+    background-color: darkslategray;
+}
+
+footer{
+    text-align: center;
+}
+.navbar a
+{
+
+    color: darkslategrey;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 25px;
+
+
+}
+
+a:hover{
+    background-color: ghostwhite;
+
+}
+p{
+    font-size: 20px;
+}
+.img-fluid{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 1px;
+}
