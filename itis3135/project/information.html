@@ -2,17 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Book your Counselling</title>
+    <title>Book your Inperson Inquaries</title>
 
     <link rel="stylesheet" href= "./styless/counseling.css" type="text/css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.min.css">
     <!-- jquery links -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
     <script src="script2.js"></script>
+    <script src="scripts/script.js"></script>
 </head>
 <body>
-<!-- code for navigation bar -->
+
 <nav class="navbar">
     <a href="index.html"><img src="church.png" alt="" class="img-fluid"></a>
     <a href="index.html">Home</a>
@@ -22,7 +23,7 @@
 
 </nav>
 <main>
-    <!-- code for form for counseling booking -->
+  
     <form action="#">
         <h1>Inperson Booking</h1>
         <label for="txtName">Name:</label><br>
@@ -45,15 +46,37 @@
         <h2> NC Armoury</h2>
 
     </form>
-    <h3> Pastors Pic and Names</h3>
-    <!-- code for bx slider plugin of pastors pics and names for church members to choose from when booking appointment -->
-    <ul id="slider">
-        <li><img src="unnamed.jpg" alt="" title="Pastor Philip N.Anderson" aria-label="pastor Anderson picture"></li>
-        <li><img src="holly-mikejpg-a2efcdfc5fb40cb6.jpg" alt="" title="Pastor Chris Mullis" aria-label="pastor Mullis picture"></li>
-        <li><img src="multicultural_rev_lawrence_young2_cc200910.jpg" alt="" title="Pastor David Williams" aria-label="pastor Williams picture"></li>
-        <li><img src="RHD4JX3ISNL7RJ73BW2Q3WQV6E.jpg" alt="" title="Pastor Mark Collins" aria-label="pastor Collins picture"></li>
-
-    </ul>
+    <h3> Basic Training stages</h3>
+   <div id="accordion" style="text-align: center;">
+       <h3> RECEPTION BATTALION</h3>
+        <div>
+        <p>Known as Week Zero, this first step will set you up to succeed in BCT. During Week Zero, 
+         you’ll process all paperwork, get your uniform and get a preview of BCT.</p>
+            </div>
+        <h3>BASIC COMBAT TRAINING</h3>
+        <div>
+        <p> This 10-week sprint puts you on the road to greatness. 
+            You'll meet your drill sergeant and learn the skills it takes 
+            to become a Soldier.</p>
+            </div>
+        <h3>ARMY PHYSICAL FITNESS TEST</h3>
+        <div>
+        <p>You’ll be required to pass the Army Physical Fitness Test (APFT) in order to graduate from BCT.
+             Fitness is of critical importance in the Army National Guard, and only those who are 
+             in the best shape go further in their careers.</p>
+            </div>
+        <h3>ADVANCED INDIVIDUAL TRAINING</h3>
+        <div>
+        <p> After BCT, your life in the military begins. Advanced Individual Training (AIT) 
+            will teach you what you need to know to do 
+            your specific job (also called your Military Occupational Specialty or MOS).</p>
+            </div>
+        <h3>BASIC TRAINING GUIDE</h3>
+        <div>
+        <p>Basic Training will teach you the skills you need in the Army National Guard, 
+            and with this guide, you'll show up prepared on Day 1.</p>
+            </div>
+       
 </main>
 
 <!-- code footer and validation -->

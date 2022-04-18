@@ -77,3 +77,9 @@ a:hover{
 p{
     font-size: 20px;
 }
+#accordion{
+    margin-top:100px;
+        width:600px;
+        margin-left:400px;
+        border-radius: 15px;
+    }
