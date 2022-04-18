@@ -21,11 +21,20 @@
 * {
     box-sizing: border-box;
   }
-  
+  .container{
+    background-image: url("project/image/24.jpg");
+    height: 500px;
+    border-radius: 15px;
+
+}
+.container{
+    text-align: center;
+    font-size: 700%;
+    font-style: italic;
+    color: darkslategray;
+}
   /* Position the image container (needed to position the left and right arrows) */
-  .container {
-    position: relative;
-  }
+ 
   
   /* Hide the images by default */
   .mySlides {
