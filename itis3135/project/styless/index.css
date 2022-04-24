@@ -18,11 +18,8 @@
 
 }
 
-* {
-    box-sizing: border-box;
-  }
-  .container{
-    background-image: url("project/image/24.jpg");
+.container{
+  background-image: url('21.jpg');
     height: 500px;
     border-radius: 15px;
 
@@ -33,86 +30,6 @@
     font-style: italic;
     color: darkslategray;
 }
-  /* Position the image container (needed to position the left and right arrows) */
- 
-  
-  /* Hide the images by default */
-  .mySlides {
-    display: none;
-  }
-  
-  /* Add a pointer when hovering over the thumbnail images */
-  .cursor {
-    cursor: pointer;
-  }
-  
-  /* Next & previous buttons */
-  .prev,
-  .next {
-    cursor: pointer;
-    position: absolute;
-    top: 40%;
-    width: auto;
-    padding: 16px;
-    margin-top: -50px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    -webkit-user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover,
-  .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-  
-  /* Container for image text */
-  .caption-container {
-    text-align: center;
-    background-color: #222;
-    padding: 2px 16px;
-    color: white;
-  }
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Six columns side by side */
-  .column {
-    float: left;
-    width: 16.66%;
-  }
-  
-  /* Add a transparency effect for thumnbail images */
-  .demo {
-    opacity: 0.6;
-  }
-  
-  .active,
-  .demo:hover {
-    opacity: 1;
-  }
 
 th{
     font-size: xx-large;
@@ -163,16 +80,10 @@ a:hover{
 
 }
 /*- to make slideshow looks better -*/
-.slides{
-    position: relative;
-    height:300px;
-    width:500px;
-    padding: 20px;
-}
-.slides img{
-  position: absolute;
-  top:0;
-  left:0;
+.slideshow-img{
+    height:500px;
+    width:800px;
+    border-radius: 15px;
 }
 .img-fluid{
     width: 30px;
@@ -185,35 +96,6 @@ a:hover{
 {
     text-align: center;
 }
-.ra{
+.obed{
     color: black;
-}
-
-body, html {
-  height: 100%;
-}
-
-/* The hero image */
-.hero-image {
-/* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("24.jpg");
-
-/* Set a specific height */
-height: 100%;
-
-/* Position and center the image to scale nicely on all screens */
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
-}
-
-/* Place text in the middle of the image */
-.hero-text {
-text-align: center;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-color: white;
 }
