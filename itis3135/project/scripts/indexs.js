@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $.ajax({
         type: "get",
-        url: "aboutus.json",
+        url: "./components/aboutus.json",
         beforeSend: function () {
             $("#about").html("Loading...");
         },

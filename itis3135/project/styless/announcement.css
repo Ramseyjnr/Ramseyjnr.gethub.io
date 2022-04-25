@@ -7,7 +7,7 @@
 }
 
 .container{
-    background-image: url("21.jpeg");
+    background-image: url('../image/21.jpg');
     height: 500px;
     border-radius: 15px;
 }
