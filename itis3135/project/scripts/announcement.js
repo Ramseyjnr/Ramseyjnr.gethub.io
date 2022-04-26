@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $.ajax({
         type: "get",
-        url: "notice.json",
+        url: "./components/notice.json",
         beforeSend: function () {
             $("#reminder").html("Loading...");
         },
