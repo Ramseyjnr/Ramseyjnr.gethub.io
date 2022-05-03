@@ -365,3 +365,9 @@ div.b {
     height: 175px;
     display: inline;
 }
+
+.review_fig {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
