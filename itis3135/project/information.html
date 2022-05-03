@@ -25,28 +25,37 @@
 </nav>
 <main>
   
-    <form action="#">
-        <h1>Inperson Booking</h1>
-        <label for="txtName">Name:</label><br>
-        <input type="text" id="txtName" required placeholder=""><br>
-
-        <label for="phone">Phone number:</label><br>
-        <input type="tel" id="phone" required placeholder=""><br>
-
-
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" required placeholder=""><br>
-
-        <label for="Message">Message:</label><br>
-
-        <textarea rows="2" cols="20" id="Message" required placeholder  =""></textarea>
-        <br><br>
-
-        <input type="Submit" value="Submit" id="submit-button">
+    <form action="reservation.php" method="post">
+        <div class="elem-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
+        </div>
+        <div class="elem-group">
+          <label for="email">Your E-mail</label>
+          <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
+        </div>
+        <div class="elem-group">
+          <label for="phone">Your Phone</label>
+          <input type="tel" id="phone" name="visitor_phone" placeholder="498-348-3872" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+        </div>
+        <hr>
+       <div class="elem-group inlined">
+          <label for="checkin-date">Available date</label>
+          <input type="date" id="checkin-date" name="appointment date" required>
+        </div>
+       
+        </div>
+        <hr>
+        <div class="elem-group">
+          <label for="message">Anything Else?</label>
+          <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important." required></textarea>
+        </div>
+        <button type="submit">Book Appointment</button>
+      
 
         <h2> NC Armoury</h2>
-
-    </form>
+     </form>
+     
     <h3> Basic Training stages</h3>
    <div id="accordion" style="text-align: center;">
        <h3> RECEPTION BATTALION</h3>
