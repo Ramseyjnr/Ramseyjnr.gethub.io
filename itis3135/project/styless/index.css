@@ -19,7 +19,7 @@
 }
 
 .container{
-  background-image: url('../image/men.jpeg');
+  background-image: url('../image/21.jpg');
     height: 500px;
     border-radius: 15px;
 
@@ -28,7 +28,7 @@
     text-align: center;
     font-size: 700%;
     font-style: italic;
-    color: darkslategray;
+    color:darkslategray;
 }
 
 th{
