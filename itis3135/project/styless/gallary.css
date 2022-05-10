@@ -74,11 +74,7 @@ body{
 h1{
     color: white;
 }
-a:hover{
-    background-color: ghostwhite;
 
-
-}
 /*- to make slideshow looks better -*/
 .slideshow-img{
     height:500px;

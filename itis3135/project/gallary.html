@@ -72,8 +72,19 @@
             <!-- code for footer and validation -->
         <footer>
             <p>Copyright © NC Armory Sanford</p><br>
-            <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
-            <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+            <p style="text-align: center;">
+                <a href = "https://jigsaw.w3.org/css-validator/check/referer" style = "text-decoration: none;" id="validation_link_css">
+                    <img src = "image/button_validation_css.png" width = "88" height = "31" alt = "Link to css validator">
+                </a>
+                <a href = "https://validator.w3.org/check?uri=referer" style = "text-decoration: none;" id="validation_link_html">
+                    <img src = "image/button_validation_html5.png" width = "88" height = "31" alt = "Link to html validator">
+                </a>
+            </p>
+        
+            <script>
+                document.getElementById('validation_link_css').setAttribute('href', 'https://jigsaw.w3.org/css-validator/check?uri=' + location.href);
+                document.getElementById('validation_link_html').setAttribute('href', 'https://validator.w3.org/check?uri=' + location.href);
+            </script>
         </footer>
 
     </body>
