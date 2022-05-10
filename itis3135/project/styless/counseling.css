@@ -59,7 +59,10 @@ footer{
 h3{
     text-align: center;
 }
-
+a:hover {
+    color:darkslategray;
+    text-decoration: underline;
+  }
 .bx-wrapper{
     margin-left:460px;
     border-radius: 15px;

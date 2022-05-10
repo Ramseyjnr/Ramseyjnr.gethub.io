@@ -74,7 +74,10 @@ body{
 h1{
     color: white;
 }
-
+a:hover {
+    color:darkslategray;
+    text-decoration: underline;
+  }
 
 
 

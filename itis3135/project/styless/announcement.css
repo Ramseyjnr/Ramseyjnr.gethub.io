@@ -51,7 +51,10 @@ footer{
 }
 
 
-
+a:hover {
+    color:darkslategray;
+    text-decoration: underline;
+  }
 #accordion{
 margin-top:100px;
     width:600px;
